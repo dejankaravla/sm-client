@@ -1,0 +1,13 @@
+.productRow {
+  width: 40%;
+}
+
+.productRow_container {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.productRow_container img {
+  height: 100px;
+}

@@ -1,0 +1,38 @@
+.products_page {
+  display: flex;
+  height: 100%;
+}
+
+.products_page_container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.products_filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products_filters_icons_search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.products_filters_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.products_filters_icons svg {
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
